@@ -20,4 +20,3 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.TOKEN }}
       - run: docker push ghcr.io/nvcq/nuxt-docker:1.0.0 
-
